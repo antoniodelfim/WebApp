@@ -1,6 +1,6 @@
 # WebApp
 
-● Kubernetes - Minikube para teste e desenvolvimento do Cluster.
+● Kubernetes - GKE 
 
 ● [Crossplane](https://crossplane.io/).
 
