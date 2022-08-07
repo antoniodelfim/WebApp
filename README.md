@@ -16,7 +16,9 @@ helm install crossplane --namespace crossplane-system crossplane-stable/crosspla
 
 
 Check Crossplane Status:
+
 helm list -n crossplane-system
+
 kubectl get all -n crossplane-system
 
 ● [Argo CD](https://argo-cd.readthedocs.io/en/stable/).
