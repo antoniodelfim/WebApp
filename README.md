@@ -15,7 +15,7 @@ helm repo update
 helm install crossplane --namespace crossplane-system crossplane-stable/crossplane
 
 
-# Check Crossplane Status
+Check Crossplane Status:
 helm list -n crossplane-system
 kubectl get all -n crossplane-system
 
