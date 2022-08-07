@@ -1,4 +1,4 @@
-# WebApp
+# WebApp ASP.NET Core .NET 6.0
 
 ● Kubernetes - GKE 
 
