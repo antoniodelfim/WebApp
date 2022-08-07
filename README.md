@@ -2,9 +2,9 @@
 
 ● Kubernetes - GKE 
 
-● [Crossplane](https://crossplane.io/).
+● [Crossplane](https://crossplane.io/)
 
-Use Helm 3 to install the latest official stable release of Crossplane,
+Use Helm 3 to install the latest official stable release of Crossplane:
 
 kubectl create namespace crossplane-system
 
