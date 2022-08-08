@@ -14,7 +14,6 @@ helm repo update
 
 helm install crossplane --namespace crossplane-system crossplane-stable/crossplane
 
-
 Check Crossplane Status:
 
 helm list -n crossplane-system
@@ -22,6 +21,16 @@ helm list -n crossplane-system
 kubectl get all -n crossplane-system
 
 ● [Argo CD](https://argo-cd.readthedocs.io/en/stable/).
+
+kubectl create namespace argocd
+
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
+Fist Login:
+
+User: admin
+
+Senha: kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 
 ● Pipeline de deployment no github Actions.
 
